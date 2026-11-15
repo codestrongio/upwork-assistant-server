@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+
+# Deployment secrets never enter the repository (TD §8)
+.env
+.env.*
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
